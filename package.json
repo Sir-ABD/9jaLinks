@@ -1,0 +1,22 @@
+{
+  "name": "9jalinks",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*",
+    "services/*"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "echo 'Use workspace commands to run services, e.g., npm run dev -w services/auth'",
+    "build": "echo 'Use workspace commands to build services'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^7.0.0"
+  }
+}
